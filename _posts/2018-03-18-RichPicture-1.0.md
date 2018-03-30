@@ -3,12 +3,12 @@ layout: general
 title:  "RichPicture 1.0"
 date:   2018-03-18 -0300
 categories: doc
-permalink: /richpicture-1.0/
+permalink: {{site.baseurl}}/richpicture-1.0/
 source: https://github.com/QueroMais/QueroMaisConversa
 image: demo-blog__posts
 image-menu: coffee-pic
-newer: /
-older: /
+newer: {{site.baseurl}}/
+older: {{site.baseurl}}/
 description: RichPicture 1.0
 ---
 
