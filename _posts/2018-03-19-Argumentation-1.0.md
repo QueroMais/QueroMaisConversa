@@ -3,12 +3,12 @@ layout: general
 title:  "Argumentação 1.0"
 date:   2018-03-19 -0300
 categories: doc
-permalink: {{site.baseurl}}/argumentacao-1.0/
+permalink: /argumentacao-1.0/
 source: https://github.com/QueroMais/QueroMaisConversa
 image: demo-blog__posts
 image-menu: coffee-pic
-newer: {{site.baseurl}}/
-older: {{site.baseurl}}/
+newer: /
+older: /
 description: Argumentação 1.0
 ---
 
