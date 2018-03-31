@@ -105,7 +105,7 @@
           {% for page in site.posts %}
           <div class="mdl-card {{page.image-menu}} mdl-cell mdl-cell--12-col">
             <div class="mdl-card__media mdl-color-text--grey-50">
-              <h3><a href="{{page.url}}">{{page.title}}</a></h3>
+              <h3><a href="{{site.baseurl}}{{page.permalink}}">{{page.title}}</a></h3>
             </div>
             <div class="mdl-color-text--grey-600 mdl-card__supporting-text">
               {{page.description}}
@@ -122,7 +122,7 @@
 
           <nav class="demo-nav mdl-cell mdl-cell--12-col">
             <div class="section-spacer"></div>
-            <a href="/" class="demo-nav__button" title="show more">
+            <a href="{{site.baseurl}}" class="demo-nav__button" title="show more">
               More
               <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
                 <i class="material-icons" role="presentation">arrow_forward</i>
