@@ -7,8 +7,8 @@ permalink: /argumentacao-1.0/
 source: https://github.com/QueroMais/QueroMaisConversa
 image: demo-blog__posts
 image-menu: coffee-pic
-newer: /
-older: /
+newer: {{site.baseurl}}
+older: {{site.baseurl}}
 description: Argumentação 1.0
 ---
 
