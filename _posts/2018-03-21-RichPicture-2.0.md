@@ -22,17 +22,69 @@ description: RichPicture 2.0
 
 ### Visão da aplicação
 
-<img src="{{site.baseurl}}/assets/images/richpicture_version/richpicture_2.0.jpg" width="650;"/>
+<section class="cd-single-item">
+    <div class="cd-slider-wrapper">
+        <ul class="cd-slider">
+            <li class="selected"><img src="{{site.baseurl}}/assets/images/richpicture_version/richpicture_2.0.jpg" alt="Product Image 1"></li>
+        </ul> <!-- cd-slider -->
+
+        <ul class="cd-slider-navigation">
+            <li><a href="#0" class="cd-prev inactive">Next</a></li>
+            <li><a href="#0" class="cd-next">Prev</a></li>
+        </ul> <!-- cd-slider-navigation -->
+
+        <a href="#0" class="cd-close">Close</a>
+    </div> <!-- cd-slider-wrapper -->
+</section> <!-- cd-single-item -->
 
 
 ### Visão do usuário Rajesh
 
-<img src="{{site.baseurl}}/assets/images/richpicture_version/persona_rajesh.jpg" width="650;"/>
+<section class="cd-single-item">
+    <div class="cd-slider-wrapper">
+        <ul class="cd-slider">
+            <li class="selected"><img src="{{site.baseurl}}/assets/images/richpicture_version/persona_rajesh.jpg" alt="Product Image 1"></li>
+        </ul> <!-- cd-slider -->
+
+        <ul class="cd-slider-navigation">
+            <li><a href="#0" class="cd-prev inactive">Next</a></li>
+            <li><a href="#0" class="cd-next">Prev</a></li>
+        </ul> <!-- cd-slider-navigation -->
+
+        <a href="#0" class="cd-close">Close</a>
+    </div> <!-- cd-slider-wrapper -->
+</section> <!-- cd-single-item -->
 
 ### Visão do usuário Mr Smith
 
-<img src="{{site.baseurl}}/assets/images/richpicture_version/persona_mrsmith.jpg" width="650;"/>
+<section class="cd-single-item">
+    <div class="cd-slider-wrapper">
+        <ul class="cd-slider">
+            <li class="selected"><img src="{{site.baseurl}}/assets/images/richpicture_version/persona_mrsmith.jpg" alt="Product Image 1"></li>
+        </ul> <!-- cd-slider -->
+
+        <ul class="cd-slider-navigation">
+            <li><a href="#0" class="cd-prev inactive">Next</a></li>
+            <li><a href="#0" class="cd-next">Prev</a></li>
+        </ul> <!-- cd-slider-navigation -->
+
+        <a href="#0" class="cd-close">Close</a>
+    </div> <!-- cd-slider-wrapper -->
+</section> <!-- cd-single-item -->
 
 ### Visão do usuário Sheldon
 
-<img src="{{site.baseurl}}/assets/images/richpicture_version/persona_sheldon.jpg" width="650;"/>
+<section class="cd-single-item">
+    <div class="cd-slider-wrapper">
+        <ul class="cd-slider">
+            <li class="selected"><img src="{{site.baseurl}}/assets/images/richpicture_version/persona_sheldon.jpg" alt="Product Image 1"></li>
+        </ul> <!-- cd-slider -->
+
+        <ul class="cd-slider-navigation">
+            <li><a href="#0" class="cd-prev inactive">Next</a></li>
+            <li><a href="#0" class="cd-next">Prev</a></li>
+        </ul> <!-- cd-slider-navigation -->
+
+        <a href="#0" class="cd-close">Close</a>
+    </div> <!-- cd-slider-wrapper -->
+</section> <!-- cd-single-item -->

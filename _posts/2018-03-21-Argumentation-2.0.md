@@ -23,7 +23,21 @@ ___
 
 ### Grafo ACE
 
-<img src="{{site.baseurl}}/assets/images/argumentacao/argumentacao.png" width="650;"/>
+<section class="cd-single-item">
+    <div class="cd-slider-wrapper">
+        <ul class="cd-slider">
+            <li class="selected"><img src="{{site.baseurl}}/assets/images/argumentacao/argumentacao.png" alt="Product Image 1"></li>
+        </ul> <!-- cd-slider -->
+
+        <ul class="cd-slider-navigation">
+            <li><a href="#0" class="cd-prev inactive">Next</a></li>
+            <li><a href="#0" class="cd-next">Prev</a></li>
+        </ul> <!-- cd-slider-navigation -->
+
+        <a href="#0" class="cd-close">Close</a>
+    </div> <!-- cd-slider-wrapper -->
+</section> <!-- cd-single-item -->
+
 
 
 #### Legendas
