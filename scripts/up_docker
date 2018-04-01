@@ -1,1 +1,1 @@
-sudo docker run -v $(pwd):/home -p 4000:4000 -it queromais
+sudo docker run -v $(pwd):/home -p "4000:4000" -it queromais
