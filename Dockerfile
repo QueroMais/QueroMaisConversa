@@ -10,5 +10,17 @@ RUN apk add --update \
 	ruby-rdoc \
 	bash 
 
-RUN gem install jekyll
+RUN gem install bundler jekyll
+
+COPY Gemfile . 
+
+RUN bundle update 
+
+WORKDIR /home
+
+
+
+EXPOSE 4000
+
+CMD ["jekyll", "serve"]
 
