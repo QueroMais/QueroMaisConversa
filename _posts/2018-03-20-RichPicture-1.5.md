@@ -2,7 +2,7 @@
 layout: general
 title:  "RichPicture 1.5"
 date:   2018-03-20 -0300
-categories: doc
+categories: pre-rastreabilidade
 permalink: /richpicture-1.5/
 source: https://github.com/QueroMais/QueroMaisConversa
 image: demo-blog__posts

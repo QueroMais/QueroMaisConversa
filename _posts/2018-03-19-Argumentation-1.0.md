@@ -2,7 +2,7 @@
 layout: general
 title:  "Argumentação 1.0"
 date:   2018-03-19 -0300
-categories: doc
+categories: pre-rastreabilidade
 permalink: /argumentacao-1.0/
 source: https://github.com/QueroMais/QueroMaisConversa
 image: demo-blog__posts
