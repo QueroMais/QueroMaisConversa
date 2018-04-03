@@ -2,11 +2,10 @@
 layout: general
 title:  "Argumentação 1.0"
 date:   2018-03-19 -0300
-categories: pre-rastreabilidade
+category: pre-rastreabilidade
 permalink: /argumentacao-1.0/
 source: https://github.com/QueroMais/QueroMaisConversa
-image: demo-blog__posts
-image-menu: coffee-pic
+image: coffee.jpg
 newer: {{site.baseurl}}
 older: {{site.baseurl}}
 description: Argumentação 1.0

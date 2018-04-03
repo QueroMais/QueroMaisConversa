@@ -2,11 +2,10 @@
 layout: general
 title:  "RichPicture 2.0"
 date:   2018-03-21 -0300
-categories: pre-rastreabilidade
+category: pre-rastreabilidade
 permalink: /richpicture-2.0/
 source: https://github.com/QueroMais/QueroMaisConversa
-image: demo-blog__posts
-image-menu: coffee-pic
+image: coffee.jpg
 newer: {{site.baseurl}}
 older: {{site.baseurl}}
 description: RichPicture 2.0

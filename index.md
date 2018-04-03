@@ -4,4 +4,5 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: menu
 source: https://github.com/QueroMais/QueroMaisConversa
+type_menu: geral 
 ---

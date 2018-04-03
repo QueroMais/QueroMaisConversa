@@ -59,28 +59,33 @@
       z-index: 900;
     }
     </style>
+    
   </head>
   <body>
     <div class="demo-blog mdl-layout mdl-js-layout has-drawer is-upgraded">
       <main class="mdl-layout__content">
         <div class="demo-blog__posts mdl-grid">
           
-          {% for page in site.posts %}
-          <div class="mdl-card {{page.image-menu}} mdl-cell mdl-cell--12-col">
-            <div class="mdl-card__media mdl-color-text--grey-50">
-              <h3><a href="{{site.baseurl}}{{page.permalink}}">{{page.title}}</a></h3>
-            </div>
-            <div class="mdl-color-text--grey-600 mdl-card__supporting-text">
-              {{page.description}}
-            </div>
-            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
-              <div class="minilogo"></div>
-              <div>
-                <strong>create</strong>
-                <span>{{page.date}}</span>
+          {% for page_aux in site.posts %}
+            {% if page_aux.category == {{page.type_menu}} %}
+              
+              <div class="mdl-card coffee-pic mdl-cell mdl-cell--12-col" background="{{site.baseurl}}/assets/images/coffee.jpg">
+                <img src="{{site.baseurl}}/assets/images/{{page_aux.image}}" height="300" >
+                <div class="mdl-card__media mdl-color-text--grey-50">
+                  <h3><a href="{{site.baseurl}}{{page_aux.permalink}}">{{page_aux.title}}</a></h3>
+                </div>
+                <div class="mdl-color-text--grey-600 mdl-card__supporting-text">
+                  {{page_aux.description}}
+                </div>
+                <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+                  <div class="minilogo"></div>
+                  <div>
+                    <strong>create</strong>
+                    <span>{{page_aux.date}}</span>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
+            {% endif %}
           {% endfor %}
 
           <nav class="demo-nav mdl-cell mdl-cell--12-col">
