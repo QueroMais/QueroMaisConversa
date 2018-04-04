@@ -1,4 +1,5 @@
 FROM alpine
+
 WORKDIR /home
 
 RUN apk add --update \
@@ -21,4 +22,4 @@ RUN bundle update
 
 EXPOSE 4000
 
-
+CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0"]
