@@ -10,14 +10,14 @@ RUN apk add --update \
 	ruby-irb \
 	ruby-dev \
 	ruby-rdoc \
-	bash 
+	bash
 
 RUN gem install bundler jekyll
 
-COPY Gemfile . 
+COPY Gemfile .
 
 
-RUN bundle update 
+RUN bundle update
 
 
 EXPOSE 4000
