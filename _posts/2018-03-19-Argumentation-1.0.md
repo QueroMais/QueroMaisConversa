@@ -5,7 +5,7 @@ date:   2018-03-19 -0300
 category: pre-rastreabilidade
 permalink: /argumentacao-1.0/
 source: https://github.com/QueroMais/QueroMaisConversa
-image: coffee.jpg
+image: argumentação.png
 newer: {{site.baseurl}}
 older: {{site.baseurl}}
 description: Argumentação 1.0

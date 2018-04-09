@@ -5,7 +5,7 @@ source: https://github.com/QueroMais/QueroMaisConversa
 type_menu: pre-rastreabilidade 
 permalink: /pre-rastreabilidade/
 description: Pré rastreabilidade
-image: coffee.jpg
+image: richpicture.jpg
 category: geral
 date:   2018-03-18 -0300
 ---
