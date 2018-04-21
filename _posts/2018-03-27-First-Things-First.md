@@ -5,7 +5,7 @@ date:   2018-03-27 -0300
 category: elicitacao
 permalink: /ftf/
 source: https://github.com/QueroMais/QueroMaisConversa
-image: coffee.jpg
+image: ftf.jpg
 newer: {{site.baseurl}}
 older: {{site.baseurl}}
 description: First Things First

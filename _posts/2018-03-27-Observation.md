@@ -5,7 +5,7 @@ date:   2018-03-27 -0300
 category: elicitacao
 permalink: /observacao/
 source: https://github.com/QueroMais/QueroMaisConversa
-image: coffee.jpg
+image: observacao.jpg
 newer: {{site.baseurl}}
 older: {{site.baseurl}}
 description: Observação
