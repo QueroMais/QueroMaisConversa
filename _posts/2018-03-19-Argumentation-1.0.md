@@ -14,9 +14,24 @@ description: Argumentação 1.0
 ## Argumentation 1.0
 
 ### Histórico
+_____________
 
-| Data | Descrição | Autor |
-|-|-|-|
+<table class="mdl-data-table mdl-js-data-table  mdl-shadow--2dp">
+  <thead>
+    <tr>
+      <th class="mdl-data-table__cell--non-numeric">Data</th>
+      <th class="mdl-data-table__cell--non-numeric">Descrição</th>
+      <th class="mdl-data-table__cell--non-numeric">Autor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">19/03/18</td>
+      <td class="mdl-data-table__cell--non-numeric">Desenvolvimento da argumentação</td>
+      <td class="mdl-data-table__cell--non-numeric">Grupo</td>
+    </tr>
+  </tbody>
+</table>
 
 ___
 
@@ -27,12 +42,10 @@ ___
         <ul class="cd-slider">
             <li class="selected"><img src="{{site.baseurl}}/assets/images/argumentacao/argumentacao.png" alt="Product Image 1"></li>
         </ul> <!-- cd-slider -->
-
         <ul class="cd-slider-navigation">
             <li><a href="#0" class="cd-prev inactive">Next</a></li>
             <li><a href="#0" class="cd-next">Prev</a></li>
         </ul> <!-- cd-slider-navigation -->
-
         <a href="#0" class="cd-close">Close</a>
     </div> <!-- cd-slider-wrapper -->
 </section> <!-- cd-single-item -->
@@ -40,22 +53,24 @@ ___
 
 #### Legendas
 
-- i(P1): 3,2 bilhões de pessoas têm acesso à internet no mundo;
-- I(P2): Pessoas têm a necessidade de se comunicar;
-- i(P3): 1 bilhão de contas ativas por dia no WhatsApp. Existem problemas como bloqueio judicial, não é 24/7;
-- I(P4): Precisamos de uma solução melhor;
-- i(P5): As pessoas não deixaram de usar o WhatsApp por conta disso;
-- C1: Por isso as pessoas não usariam o nosso App;
-- C2: No nosso programa são publicos alvos diferentes e os problemas de bloqueio e a queda e bloqueio não ocorrem no nosso App;
-- I(P6): Portabilidade, segurança, estabilidade, atratividade;
-- i(P7): Pessoas querem coisas mais práticas, mais divertidas e querem digitar menos;
-- I(P8): Formas inovadoras de se comunicar;
-- C3: Adicionar novas funcionalidades pode comprometer a usabilidade;
-- C4: isso não compromete a usabilidade e ainda pode ser um atrativo para os usuários;
-- i(P9): Muitos usuários tem dificuldade em utilizar plataformas muito complexas (cheias de funcionalidades);
-- i(P10): O governo ou organizações tentam/querem obter informações dos usuários;
-- I(P11): Vamos criptografar as informações de ponta a ponta;
-- i(P12): As pessoas utilizam vários tipos de dispositivos;
-- I(P13): Vamos fazer multiplataforma;
-- C5: Desenvolver para múltiplas plataformas pode comprometer o projeto;
-- C6: Vamos perder mercado desenvolvendo apenas para uma plataforma, podemos fazer uma aplicação que seja segura em múltiplas plataformas  
+<ul class='mdl-list'>
+  <li class="mdl-list__item">i(P1): 3,2 bilhões de pessoas têm acesso à internet no mundo</li>
+  <li class="mdl-list__item">I(P2): Pessoas têm a necessidade de se comunicar</li>
+  <li class="mdl-list__item">i(P3): 1 bilhão de contas ativas por dia no WhatsApp. Existem problemas como bloqueio judicial, não é 24/7</li>
+  <li class="mdl-list__item">I(P4): Precisamos de uma solução melhor</li>
+  <li class="mdl-list__item">i(P5): As pessoas não deixaram de usar o WhatsApp por conta disso</li>
+  <li class="mdl-list__item">C1: Por isso as pessoas não usariam o nosso App</li>
+  <li class="mdl-list__item">C2: No nosso programa são publicos alvos diferentes e os problemas de bloqueio e a queda e bloqueio não ocorrem no nosso App</li>
+  <li class="mdl-list__item">I(P6): Portabilidade, segurança, estabilidade, atratividade</li>
+  <li class="mdl-list__item">i(P7): Pessoas querem coisas mais práticas, mais divertidas e querem digitar menos</li>
+  <li class="mdl-list__item">I(P8): Formas inovadoras de se comunicar</li>
+  <li class="mdl-list__item">C3: Adicionar novas funcionalidades pode comprometer a usabilidade</li>
+  <li class="mdl-list__item">C4: isso não compromete a usabilidade e ainda pode ser um atrativo para os usuários</li>
+  <li class="mdl-list__item">i(P9): Muitos usuários tem dificuldade em utilizar plataformas muito complexas (cheias de funcionalidades)</li>
+  <li class="mdl-list__item">i(P10): O governo ou organizações tentam/querem obter informações dos usuários</li>
+  <li class="mdl-list__item">I(P11): Vamos criptografar as informações de ponta a ponta</li>
+  <li class="mdl-list__item">i(P12): As pessoas utilizam vários tipos de dispositivos</li>
+  <li class="mdl-list__item">I(P13): Vamos fazer multiplataforma</li>
+  <li class="mdl-list__item">C5: Desenvolver para múltiplas plataformas pode comprometer o projeto</li>
+  <li class="mdl-list__item">C6: Vamos perder mercado desenvolvendo apenas para uma plataforma, podemos fazer uma aplicação que seja segura em múltiplas plataformas</li>
+</ul>

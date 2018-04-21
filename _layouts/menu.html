@@ -59,9 +59,33 @@
       z-index: 900;
     }
     </style>
-    
+    <style>
+        .demo-layout-transparent .mdl-layout__header,
+        .demo-layout-transparent .mdl-layout__drawer-button {
+          /* This background is dark, so we set text to white. Use 87% black instead if
+             your background is light. */
+          color: white;
+        }
+    </style>
   </head>
   <body>
+    <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+        
+        <div class="mdl-layout__drawer">
+          <span class="mdl-layout-title">Title</span>
+          <nav class="mdl-navigation">
+              <a class="mdl-navigation__link" href="{{site.baseurl}}">Home</a>
+            <a class="mdl-navigation__link" href="{{site.baseurl}}/pre-rastreabilidade/">Pré-Rastreabilidade</a>
+            <a class="mdl-navigation__link" href="{{site.baseurl}}/elicitacao/">Elicitação</a>
+            <a class="mdl-navigation__link" href="">Modelagem</a>
+            <a class="mdl-navigation__link" href="">Análise</a>
+            <a class="mdl-navigation__link" href="">Pós-Rastreabilidade</a>
+          </nav>
+        </div>
+        <main class="mdl-layout__content">
+        </main>
+      </div>
+        
     <div class="demo-blog mdl-layout mdl-js-layout has-drawer is-upgraded">
       <main class="mdl-layout__content">
         <div class="demo-blog__posts mdl-grid">

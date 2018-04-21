@@ -14,11 +14,24 @@ description: RichPicture 1.5
 ## RichPicture 1.5
 
 ### Histórico
+_____________
 
-| Data | Descrição | Autor |
-|-|-|-|
-|20/03/18|Feito o RichPicture 1.5| Cleber, Hiroshi e Felipe|
-
+<table class="mdl-data-table mdl-js-data-table  mdl-shadow--2dp">
+  <thead>
+    <tr>
+      <th class="mdl-data-table__cell--non-numeric">Data</th>
+      <th class="mdl-data-table__cell--non-numeric">Descrição</th>
+      <th class="mdl-data-table__cell--non-numeric">Autor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">20/03/18</td>
+      <td class="mdl-data-table__cell--non-numeric">Feito o RichPicture 1.5</td>
+      <td class="mdl-data-table__cell--non-numeric">Cleber, Hiroshi e Felipe</td>
+    </tr>
+  </tbody>
+</table>
 ___
 
 ### Visão da aplicação
